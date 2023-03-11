@@ -7,24 +7,29 @@
     <title>Raff</title>
   </head>
   <body
-    class="flex flex-col h-full justify-center items-center bg-primary relative box-border"
+    class="flex flex-col h-full justify-center items-center bg-primary text-white relative box-border"
   >
     <header class="justify-items-start">
       <h1 class="p-6 m-6">Welcome!</h1>
     </header>
-    <nav class="container">
-      <ol class="flex justify-evenly bg-secundary">
-        <li>ReadMe</li>
+    <nav class="container bg-[#333333]">
+      <ol class="flex justify-evenly h-8 items-center">
+        <li class="hover:border-b-4 hover:border-yellow-300 duration-100">
+          <a href="#rd" class="">ReadMe</a>
+        </li>
         <li>Filmes</li>
         <li>Livros</li>
         <li>Musica</li>
         <li>Jogos</li>
+        <li>Tech.</li>
       </ol>
     </nav>
-    <div class="container m-10 grid grid-cols-2 justify-items-center w-auto">
-      <div class="w-60 m-3 p-3 bg-primary-light shadow-md">
+    <div class="container m-10 grid grid-cols-2 w-auto">
+      <div
+        class="w-60 m-3 p-3 bg-primary-light shadow-md border-yellow-200 border-solid border-2 rounded-md hover:scale-110 after:-z-10 hover:transition-all duration-75 hover:border-transparent"
+      >
         <h1 id="rd" class="m-1">Readme!</h1>
-        <p>
+        <p class="">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam
           architecto eius deleniti doloremque neque voluptatibus esse
           necessitatibus officia impedit explicabo a natus labore ex commodi,
@@ -34,11 +39,11 @@
       <div id="ff" class="w-60 m-3 p-3 bg-primary-light shadow-md">
         <h1 class="m-1">Filmes Favoritos</h1>
         <ol class="list-decimal p-4 m-2">
-          <li>a</li>
-          <li>a</li>
-          <li>a</li>
-          <li>a</li>
-          <li>a</li>
+          <li>Harry Potter e o Principe Mestiço</li>
+          <li>Gente Grande</li>
+          <li>Click</li>
+          <li>It a coisa</li>
+          <li>Velozes e Furiosos: Desafio em Tokio</li>
         </ol>
       </div>
       <div class="w-60 m-3 p-3 bg-primary-light shadow-md">
@@ -63,7 +68,7 @@
       </div>
 
       <div class="w-60 m-3 p-3 bg-primary-light shadow-md">
-        <h1 class="m-1">Top Linguagens de Prog</h1>
+        <h1 class="m-1">Tecnologias</h1>
         <ol class="list-decimal p-4 m-2">
           <li>a</li>
           <li>a</li>
