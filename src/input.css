@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.indicator {
+  animation: ind 2s linear;
+}
+@keyframes ind {
+  0% {
+    border: none;
+    border-radius: 5px;
+  }
+  30% {
+    border: 0.3px solid yellow;
+    border-radius: 5px;
+  }
+  40% {
+    border: 0.4px solid yellow;
+    border-radius: 5px;
+  }
+  50% {
+    border: 1px solid yellow;
+    border-radius: 5px;
+  }
+  90% {
+    border: 2px solid yellow;
+    border-radius: 5px;
+  }
+  100% {
+    border: 0.2px solid rgb(255, 255, 0, 0.3);
+    border-radius: 5px;
+  }
+}

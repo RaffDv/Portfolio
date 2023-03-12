@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
+
+    <script src="./index.js" defer></script>
     <title>Raff</title>
   </head>
   <body
@@ -12,31 +14,61 @@
     <header class="justify-items-start">
       <h1 class="p-6 m-6">Welcome!</h1>
     </header>
-    <nav class="container bg-[#333333]">
-      <ol class="flex justify-evenly h-8 items-center">
-        <li class="hover:border-b-4 hover:border-yellow-300 duration-100">
-          <a href="#rd" class="">ReadMe</a>
+    <nav class="container bg-white/10 rounded-lg">
+      <ol id="nav" class="flex justify-evenly h-8 items-center">
+        <li>
+          <a
+            href="#rd"
+            class="border-b-1 border-violet-300 hover:border-b-3 hover:border-b-violet-500 hover:duration-100"
+            >ReadMe</a
+          >
         </li>
-        <li>Filmes</li>
-        <li>Livros</li>
-        <li>Musica</li>
-        <li>Jogos</li>
-        <li>Tech.</li>
+        <li
+          class="border-b-1 border-violet-300 hover:border-b-3 hover:border-b-violet-500 hover:duration-100"
+        >
+          <a href="#f">Filmes</a>
+        </li>
+        <li
+          class="border-b-1 border-violet-300 hover:border-b-3 hover:border-b-violet-500 hover:duration-100"
+        >
+          <a href="#j">Jogos</a>
+        </li>
+        <li
+          class="border-b-1 border-violet-300 hover:border-b-3 hover:border-b-violet-500 hover:duration-100"
+        >
+          <a href="#l">livros</a>
+        </li>
+        <li
+          class="border-b-1 border-violet-300 hover:border-b-3 hover:border-b-violet-500 hover:duration-100"
+        >
+          <a href="#m">Musicas</a>
+        </li>
+        <li
+          class="border-b-1 border-violet-300 hover:border-b-3 hover:border-b-violet-500 hover:duration-100"
+        >
+          <a href="#t">&lt Tech. &gt</a>
+        </li>
       </ol>
     </nav>
-    <div class="container m-10 grid grid-cols-2 w-auto">
+    <div
+      class="container m-10 grid lg:grid-cols-3 w-auto relative md:grid-cols-2 sm::grid-cols-1"
+    >
       <div
-        class="w-60 m-3 p-3 bg-primary-light shadow-md border-yellow-200 border-solid border-2 rounded-md hover:scale-110 after:-z-10 hover:transition-all duration-75 hover:border-transparent"
+        id="rd"
+        class="w-60 m-3 p-3 bg-primary-light shadow-md hover:transition-all duration-75 hover:scale-110 hover:outline-4 hover:outline-double hover:outline-pink-550 hover:bg-opacity-0 hover:text-pink-300"
       >
-        <h1 id="rd" class="m-1">Readme!</h1>
-        <p class="">
+        <h1 class="m-1">Readme!</h1>
+        <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam
           architecto eius deleniti doloremque neque voluptatibus esse
           necessitatibus officia impedit explicabo a natus labore ex commodi,
           placeat sunt ab sint nihil?
         </p>
       </div>
-      <div id="ff" class="w-60 m-3 p-3 bg-primary-light shadow-md">
+      <div
+        id="f"
+        class="w-60 m-3 p-3 bg-primary-light shadow-md hover:transition-all duration-75 hover:scale-110 hover:outline-4 hover:outline-double hover:outline-pink-550 hover:bg-opacity-0 hover:text-pink-300"
+      >
         <h1 class="m-1">Filmes Favoritos</h1>
         <ol class="list-decimal p-4 m-2">
           <li>Harry Potter e o Principe Mestiço</li>
@@ -46,7 +78,10 @@
           <li>Velozes e Furiosos: Desafio em Tokio</li>
         </ol>
       </div>
-      <div class="w-60 m-3 p-3 bg-primary-light shadow-md">
+      <div
+        id="l"
+        class="w-60 m-3 p-3 bg-primary-light shadow-md hover:transition-all duration-75 hover:scale-110 hover:outline-4 hover:outline-double hover:outline-pink-550 hover:bg-opacity-0 hover:text-pink-300"
+      >
         <h1 class="m-1">livros Favoritos</h1>
         <ol class="list-decimal p-4 m-2">
           <li>a</li>
@@ -56,7 +91,10 @@
           <li>a</li>
         </ol>
       </div>
-      <div class="w-60 m-3 p-3 bg-primary-light shadow-md">
+      <div
+        id="j"
+        class="w-60 m-3 p-3 bg-primary-light shadow-md hover:transition-all duration-75 hover:scale-110 hover:outline-4 hover:outline-double hover:outline-pink-550 hover:bg-opacity-0 hover:text-pink-300"
+      >
         <h1 class="m-1">Jogos Favoritos</h1>
         <ol class="list-decimal p-4 m-2">
           <li>a</li>
@@ -67,7 +105,24 @@
         </ol>
       </div>
 
-      <div class="w-60 m-3 p-3 bg-primary-light shadow-md">
+      <div
+        id="m"
+        class="w-60 m-3 p-3 bg-primary-light shadow-md hover:transition-all duration-75 hover:scale-110 hover:outline-4 hover:outline-double hover:outline-pink-550 hover:bg-opacity-0 hover:text-pink-300"
+      >
+        <h1 class="m-1">Músicas</h1>
+        <ol class="list-decimal p-4 m-2">
+          <li>a</li>
+          <li>a</li>
+          <li>a</li>
+          <li>a</li>
+          <li>a</li>
+        </ol>
+      </div>
+
+      <div
+        id="t"
+        class="w-60 m-3 p-3 bg-primary-light shadow-md hover:transition-all duration-75 hover:scale-110 hover:outline-4 hover:outline-double hover:outline-pink-550 hover:bg-opacity-0 hover:text-pink-300"
+      >
         <h1 class="m-1">Tecnologias</h1>
         <ol class="list-decimal p-4 m-2">
           <li>a</li>
