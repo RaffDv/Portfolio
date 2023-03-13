@@ -7,30 +7,55 @@
 }
 @keyframes ind {
   0% {
-    border: none;
+    border: 0.2px;
+    border-radius: 5px;
+    transition-duration: 75ms;
+  }
+  10% {
+    border: 0.3px solid #8f43ee;
+    border-radius: 5px;
+  }
+  20% {
+    border: 0.4px solid #8f43ee;
     border-radius: 5px;
   }
   30% {
-    border: 0.3px solid yellow;
+    border: 0.5px solid #8f43ee;
+    border-radius: 5px;
+  }
+  30% {
+    border: 0.6px solid #8f43ee;
     border-radius: 5px;
   }
   40% {
-    border: 0.4px solid yellow;
+    border: 0.7px solid #8f43ee;
     border-radius: 5px;
   }
   50% {
-    border: 1px solid yellow;
+    border: 0.8px solid #8f43ee;
     border-radius: 5px;
   }
+  60% {
+    border: 0.9px solid #8f43ee;
+    border-radius: 5px;
+  }
+  70% {
+    border: 1px solid #8f43ee;
+    border-radius: 5px;
+  }
+  80% {
+    border: 1.2px solid #8f43ee;
+    border-radius: 5px;
+  }
+  85% {
+    border: 1.4px solid #8f43ee;
+  }
   90% {
-    border: 2px solid yellow;
+    border: 1.6px solid #8f43ee;
     border-radius: 5px;
   }
   100% {
-    border: 0.2px solid rgb(255, 255, 0, 0.3);
+    border: 1.8px solid rgb(143, 67, 238, 0.3);
     border-radius: 5px;
   }
-}
-html {
-  scroll-behavior: smooth;
 }

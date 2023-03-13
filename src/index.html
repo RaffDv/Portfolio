@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link href="../dist/output.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -11,83 +11,80 @@
       rel="stylesheet"
     />
 
-    <link href="../dist/output.css" rel="stylesheet" />
-
     <script src="./index.js" defer></script>
     <title>Raff</title>
   </head>
   <body
-    class="flex flex-col h-full justify-center items-center bg-primary text-white relative box-border "
+    class="flex flex-col h-full justify-center items-center bg-primary text-white relative box-border"
   >
     <header class="justify-items-start">
-      <h1 class="p-6 m-6 font-rampart text-3xl">Thalk is cheap, show me the code!</h1>
+      <h1 class="p-6 m-6 text-2xl font-rampart text-stone-300">
+        Talk is cheap, show me the code!
+      </h1>
     </header>
     <nav class="container bg-white/10 rounded-lg">
       <ol
         id="nav"
-        class="flex justify-evenly h-8 items-center font-vt323 text-xl"
+        class="flex justify-evenly h-8 items-center font-vt323 text-lg"
       >
-        <li>
-          <a
-            href="#rd"
-            class="border-b-1 border-violet-300 hover:border-b-3 hover:border-b-violet-500 hover:duration-100"
-            >ReadMe</a
-          >
-        </li>
-        <li>
-          <a
-            href="#f"
-            class="border-b-1 border-violet-300 hover:border-b-3 hover:border-b-violet-500 hover:duration-100"
-            >Filmes</a
-          >
-        </li>
-          
+        <li
+          class="border-b-1 border-violet-300 hover:border-b-3 hover:border-b-violet-500 hover:duration-100"
+        >
+          <a href="#rd">ReadMe</a>
         </li>
         <li
-         
+          class="border-b-1 border-violet-300 hover:border-b-3 hover:border-b-violet-500 hover:duration-100"
         >
-          <a href="#j"  class="border-b-1 border-violet-300 hover:border-b-3 hover:border-b-violet-500 hover:duration-100">Jogos</a>
+          <a href="#f">Filmes</a>
         </li>
         <li
+          class="border-b-1 border-violet-300 hover:border-b-3 hover:border-b-violet-500 hover:duration-100"
         >
-          <a href="#l"  class="border-b-1 border-violet-300 hover:border-b-3 hover:border-b-violet-500 hover:duration-100">livros</a>
+          <a href="#j">Jogos</a>
         </li>
         <li
-          
+          class="border-b-1 border-violet-300 hover:border-b-3 hover:border-b-violet-500 hover:duration-100"
         >
-          <a href="#m" class="border-b-1 border-violet-300 hover:border-b-3 hover:border-b-violet-500 hover:duration-100">Musicas</a>
+          <a href="#l">livros</a>
         </li>
         <li
-          
+          class="border-b-1 border-violet-300 hover:border-b-3 hover:border-b-violet-500 hover:duration-100"
         >
-          <a href="#t" class="border-b-1 border-violet-300 hover:border-b-3 hover:border-b-violet-500 hover:duration-100">&lt Tech. &gt</a>
+          <a href="#m">Musicas</a>
+        </li>
+        <li
+          class="border-b-1 border-violet-300 hover:border-b-3 hover:border-b-violet-500 hover:duration-100"
+        >
+          <a href="#t">&lt Tech. &gt</a>
         </li>
       </ol>
     </nav>
     <div
-      class="container m-10 grid lg:grid-cols-3 w-auto relative md:grid-cols-2 sm::grid-cols-1 font-genos "
+      class="container m-10 grid lg:grid-cols-3 w-auto relative md:grid-cols-2 sm::grid-cols-1 font-genos"
     >
       <div
         id="rd"
         class="rounded-md w-60 m-3 p-3 bg-primary-light shadow-md hover:transition-all duration-75 hover:scale-110 hover:outline-4 hover:outline-double hover:outline-pink-550 hover:bg-opacity-0 hover:text-pink-300"
       >
-        <h1 class="m-1 font-semibold font-genos text-lg">Readme!</h1>
-        <p class="text-sm
-        ">
-          Olá, sou o Rafael, amo programação e estudar tecnologias, e não gosto de ficar estagnado, e como todo bom programador amo <span class="text-amber-500">café</span>, aprendo rápido e não gosto de 'perder tempo'. Espero me especializar em desenvolvimento Web mas pretendo estudar desenvolvimento de jogos, pois é o que sempre quis fazer. Bom acho que isso é um bom overview sobre mim <br>
-          Hello World Guys!
+        <h1 class="m-1 text-xl">Readme!</h1>
+        <p>
+          Olá, meu nome é rafael, gosto muito da area de TI, mais
+          expecificamente a parte de desenvolvimento tanto WEB como de jogos.
+          Como todo bom programador, gosto de
+          <span class="text-amber-600">café</span>. Não gosto de perder tempo e
+          odeio que me incomodem quando estou focado.
         </p>
       </div>
       <div
         id="f"
         class="rounded-md w-60 m-3 p-3 bg-primary-light shadow-md hover:transition-all duration-75 hover:scale-110 hover:outline-4 hover:outline-double hover:outline-pink-550 hover:bg-opacity-0 hover:text-pink-300"
       >
-        <h1 class="m-1 font-semibold font-genos text-lg">Filmes Favoritos</h1>
-        <ol class="list-decimal p-4 m-2 sm:flex-col">
+        <h1 class="m-1 text-xl">Filmes Favoritos</h1>
+        <ol class="list-decimal p-4 m-2">
           <li>Harry Potter e o Principe Mestiço</li>
           <li>Gente Grande</li>
-          <li>Creed II</li>
-          <li>IT a coisa</li>
+          <li>Creed I</li>
+          <li>It a coisa</li>
           <li>Velozes e Furiosos: Desafio em Tokio</li>
         </ol>
       </div>
@@ -95,13 +92,13 @@
         id="l"
         class="rounded-md w-60 m-3 p-3 bg-primary-light shadow-md hover:transition-all duration-75 hover:scale-110 hover:outline-4 hover:outline-double hover:outline-pink-550 hover:bg-opacity-0 hover:text-pink-300"
       >
-        <h1 class="m-1 font-semibold font-genos text-lg">Livros Favoritos</h1>
+        <h1 class="m-1 text-xl">Livros Favoritos</h1>
         <ol class="list-decimal p-4 m-2">
           <li>Harry Potter: E o Prisioneiro de Azkaban</li>
-          <li>Harry Potter: E a Ordem da Fênix</li>
-          <li>Os Mistérios de Keri Locke: Rastro de Vingança</li>
-
           <li>O Código DaVinci</li>
+          <li>Harry Potter: E a Ordem da Fênix</li>
+
+          <li>Os Misterios de Keri Locke: Rastro de Vingança</li>
           <li>O Conjurador</li>
         </ol>
       </div>
@@ -109,13 +106,13 @@
         id="j"
         class="rounded-md w-60 m-3 p-3 bg-primary-light shadow-md hover:transition-all duration-75 hover:scale-110 hover:outline-4 hover:outline-double hover:outline-pink-550 hover:bg-opacity-0 hover:text-pink-300"
       >
-        <h1 class="m-1 font-semibold font-genos text-lg">Jogos Favoritos</h1>
+        <h1 class="m-1 text-xl">Jogos Favoritos</h1>
         <ol class="list-decimal p-4 m-2">
           <li>Minecraft</li>
           <li>Hollow Knight</li>
-          <li>Hogwarts Legacy</li>
           <li>Stardew Valley</li>
-          <li>Don't Starve</li>
+          <li>Hogwarts Legacy</li>
+          <li>Slime Rancher</li>
         </ol>
       </div>
 
@@ -123,37 +120,37 @@
         id="m"
         class="rounded-md w-60 m-3 p-3 bg-primary-light shadow-md hover:transition-all duration-75 hover:scale-110 hover:outline-4 hover:outline-double hover:outline-pink-550 hover:bg-opacity-0 hover:text-pink-300"
       >
-        <h1 class="m-1 font-semibold font-genos text-lg">Músicas</h1>
+        <h1 class="m-1 text-xl">Músicas</h1>
         <ol class="list-decimal p-4 m-2">
-          <li>Merlin - VMZ</li>
-          <li>Anos Luz - Matuê</li>
-          <li>Segunda - VMZ</li>
           <li>Havaí - Lowz</li>
-          <li>Poesia Acústica 2</li>
+          <li>Anos Luz - Matuê</li>
+          <li>Merlin - VMZ</li>
+          <li>Segunda - VMZ</li>
+          <li>Lúcido - VMZ</li>
         </ol>
-        <p class="text-sm
-        ">Caso queira saber o que estou ouvindo agora entre no meu <a href="https://github.com/RaffDv" target="_blank" class="font-vt323 text-violet-400 ">Github</a>, ou acompanhe minha playlist do <a href="https://open.spotify.com/playlist/3KOWogQVNL2TXvymocJyFe?si=813d88f0c3294b72" target="_blank" class="text-green-400 font-vt323 ">Spotify</a></p>
+        <p class="font-vt323">
+          Minha playlist do
+          <a
+            href="https://open.spotify.com/playlist/3KOWogQVNL2TXvymocJyFe?si=e3053ea2511148f9"
+            class="text-green-400"
+            >Spotify</a
+          >
+        </p>
       </div>
 
       <div
         id="t"
         class="rounded-md w-60 m-3 p-3 bg-primary-light shadow-md hover:transition-all duration-75 hover:scale-110 hover:outline-4 hover:outline-double hover:outline-pink-550 hover:bg-opacity-0 hover:text-pink-300"
       >
-        <h1 class="m-1 font-semibold font-genos text-lg">Tecnologias</h1>
-        <p class="text-sm 
-        ">Um top das tecnologias que gosto de estudar</p>
+        <h1 class="m-1 text-xl">Tecnologias</h1>
         <ol class="list-decimal p-4 m-2">
-          
-          <li>TailwindCss</li>
           <li>React</li>
-          <li>JS</li>
+          <li>Tailwind</li>
           <li>NodeJs</li>
+          <li>JS</li>
           <li>PHP</li>
         </ol>
-        
       </div>
-      
     </div>
-  
   </body>
 </html>

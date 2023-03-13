@@ -28,9 +28,9 @@ module.exports = {
       },
       fontFamily: {
         genos: ["Genos"],
-        rampart: ["Rampart One"],
         maven: ["Maven Pro"],
-        vt323: ["VT323 "],
+        rampart: ["Rampart One"],
+        vt323: ["VT323"],
       },
     },
   },
