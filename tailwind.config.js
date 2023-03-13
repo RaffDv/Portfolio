@@ -26,6 +26,12 @@ module.exports = {
           350: "#AA77FF",
         },
       },
+      fontFamily: {
+        genos: ["Genos"],
+        rampart: ["Rampart One"],
+        maven: ["Maven Pro"],
+        vt323: ["VT323 "],
+      },
     },
   },
   plugins: [],
